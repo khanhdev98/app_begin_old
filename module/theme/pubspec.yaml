@@ -1,0 +1,36 @@
+name: theme
+description: Flutter library for Stripe. Supports PaymentSheets, Apple & Google Pay, SCA, PSD2 and much more.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+  flutter: ">=3.0.0"
+  # add font text from google.
+flutter:
+  uses-material-design : true
+  assets:
+    # ======== ICONS ==========
+    - assets/icons/common/
+    - assets/icons/common/2x/
+    - assets/icons/common/3x/
+    # =========================
+    - assets/images/
+    - assets/images/2x/
+    - assets/images/3x/
+    - assets/images/flag/
+    - assets/lotties/
+    - assets/images/empty/
+    - assets/images/empty/2x/
+    - assets/images/empty/3x/
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^3.0.1
+  kotlin_flavor: ^0.2.0
+  badges: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
